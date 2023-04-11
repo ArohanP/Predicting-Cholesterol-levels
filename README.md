@@ -7,4 +7,4 @@ The distribution plots show the individual peaks and spread of each column.
 
 # Development of the model
 Multitude of regression models were implemented on the dataset which was first split into **80-20** training and testing sets. **Mean-squared-error** was used as the performance measure
-for each model. A dictionary of values was creating indicating each model and its mean-squared-error. 
+for each model. A dictionary was created with model type used as the key and its associated error as the value.
